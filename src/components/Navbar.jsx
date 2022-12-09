@@ -25,6 +25,7 @@ const Navbar = () => {
     setIsClicked, handleClick, screenSize,
     setScreenSize } = useStateContext();
 
+    // rastreando el tamaño de la screen
   useEffect(() => {
     const handleResize = () => setScreenSize(window.innerWidth);
 
